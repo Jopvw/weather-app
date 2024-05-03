@@ -1,0 +1,56 @@
+body {
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.autocomplete {
+    padding: 25px 15px;
+    width: 100%;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(28, 1, 103);
+    text-align: start;
+}
+
+#city-list {
+    top: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 1, 103);
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.autocomplete li {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn {
+    height: 40px;
+    width:40%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
